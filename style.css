@@ -13,6 +13,7 @@ body{
     background-color: #1F2937;
     padding: 16px;
     align-items: center;
+    padding: 0px 60px;
 }
 
 .header-links{
@@ -27,4 +28,32 @@ body{
 a{
     text-decoration: none;
     color: white;
+}
+
+.hero-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    gap: 22px;
+    padding: 80px 60px;
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-button{
+    align-self: flex-start;
+}
+
+.hero-image{
+    flex-grow: 2;
+}
+*{
+    outline: 2px solid salmon;
 }
