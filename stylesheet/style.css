@@ -42,7 +42,7 @@ body{
 }
 
 .image-holder{
-    width: 470px;
+    width: 900px;
     height: 244px;
     border: 2px solid black;
 }
@@ -64,3 +64,38 @@ body{
     border-radius: 3px;
     padding: 5px 16px;
 }
+
+.information-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row nowrap;
+    gap: 52px;
+    max-width: 200px;
+}
+
+.information-heading{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin: 32px 0;
+}
+
+.info-content{
+    text-align: center;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    border: 2px solid royalblue;
+    border-radius: 8px;
+}
+
