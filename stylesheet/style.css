@@ -103,23 +103,60 @@ body{
 .quote-section{
     background-color: #E5E7EB;
     padding: 60px; 
-     display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: column;
-    /*text-align: start; */
-    padding: 10px 300px; 
+    padding: 60px 300px; 
+    Color: #1F2937;
+
 }
 
 .quote{
     font-size: 36px;
-    Color: #1F2937;
-    Weight: 300;
+    font-weight: 300;
     font-style: italic;
+    margin: 0;
     
 }
 
 .quote-author{
-    /* text-align: end; */
-    align-self:self-end;
+    align-self:flex-end;
+    font-weight: bold;
+    margin: 0;
+}
+
+.cta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    color: white;
+    background-color: #3882F6;
+    margin:50px 200px;
+    padding: 30px;
+    border-radius: 6px;
+}
+
+.cta-main-text,
+.cta-sub-text {
+    margin: 0;
+    padding: 0;
+}
+
+.cta-button{
+    color: white;
+    background: none;
+    padding: 5px 30px;
+    border-radius: 6px;
+    border: 1px solid white;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 30px;
+    color: white;
 }
